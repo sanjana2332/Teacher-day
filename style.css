@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+   
+
+}
+
+.video{
+    content: '';
+    padding-left: 500px;
+    /* position: absolute; */
+    height: 100vh;
+    width: 70%;
+    top: 0;
+    object-fit: cover;
+}
+
+
+/* 
+section:before {
+    content: '';
+    position: center;
+     padding-left: 500px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+} */
+
+.frame {
+    height: 100vh;
+     /* width: 90vw;  */
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+}
+
+.srk{
+    height: 80vh;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+
+
+
+.s {
+    margin: 0;
+    padding-left: 600px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: left;
+    color: #ddd;
+    font-size: 60px;
+    font-family: cursive;
+    letter-spacing: 0.010em;
+    color: magenta;
+
+}
+
+.s {
+
+    animation: animate 12s linear forwards;
+}
+
+
+
+.a {
+    margin: 0;
+    padding-left: 300px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 60px;
+    font-family: cursive;
+    letter-spacing: 0.010em;
+    color: mediumturquoise;
+
+}
+
+.a {
+
+    animation: animate 13s linear forwards;
+}
+
+.n {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 70%;
+
+    width: 100%;
+    text-align: left;
+    padding-left: 1280px;
+    color: #ddd;
+    font-size: 60px;
+    font-family: cursive;
+    letter-spacing: 0.2px;
+    color: tomato;
+
+}
+
+.n {
+
+    animation: animate 15s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        filter: blur(12px);
+    }
+
+}
+
+h2 {
+
+
+    margin: 0;
+    position: absolute;
+    top: 88%;
+
+    width: 100%;
+    text-align: center;
+    padding-left: 200px;
+    color:yellow;
+    font-size:40px;
+    font-family: sans-serif;
+    letter-spacing: 0.010em;
+    animation: animate 1s linear forwards;
+
+
+}
+
+/* .audio{ */
+    /* opacity: 0; */
